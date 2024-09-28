@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior: auto;
+}
+.navbar {
+    height: 75px;
+    background-color: rgb(16, 14, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(16, 121, 142);
+}
+.nav-items {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bg {
+    height: 654px;
+    background-image: url(images/Screenshot\ 2024-09-06\ 181129.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.bg-text {
+    height: 80%;
+    margin-left: 400px;
+    padding-top: 150px;
+}
+#hello {
+    font-weight: bold;
+    font-size: 2.7rem;
+    padding-left: 170px;
+    padding-bottom: 20px;
+}
+#main {
+    font-weight: bold;
+    font-size: 7rem;
+    color: rgb(244, 255, 38);
+    padding-bottom: 50px;
+}
+button {
+    background-color: transparent;
+    border-radius: 20px;
+    height: 70px;
+    width: 300px;
+    margin-left: 230px;
+    border: 3px solid rgb(244, 255, 38);
+    color: rgb(244, 255, 38);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+button:active {
+    background-color: rgb(244, 255, 38);
+    color: black;
+}
+.nav-ed {
+    height: 75px;
+    /* background-color: rgb(129, 31, 129); */
+    background-color: black;
+    color: white;
+}
+.bars {
+    height: 80%;
+    width: 30px;
+    color: white;
+}
